@@ -1,0 +1,13 @@
+Microserviços é uma nova forma de fazer a arquitetura de um software, em que construímos a aplicação separando em serviços independentes, esses serviços se comunicam entre si por meio de uma API. 
+E isso promove uma série de benefícios entre eles a agilidade já que cada time se torna especialista em apenas um tipo de serviço, códigos menores e também ajuda também casa aconteça algum imprevisto em produção
+já que os microserviços atuam separadamente pode acontecer de um serviço ficar fora do ar mas outro continuar funcionando e com isso não afetando todo o sistema.
+
+Para entender um pouco mais sobre microserviços também precisamos falar da arquitetura monolítica, que é quando toda a aplicação está acoplada e se qualquer parte de um sistema tiver algum problema todo o restante também estará 
+comprometido. Já na arquitetura de microserviços a aplicação roda de forma mais desacoplada.
+
+Os benefícios da arquitetura de microserviços podem ser:
+- Escalabilidade
+- Definição clara de domínios
+- Diversificação de tecnologia
+
+A comunicação entre os microserviços pode ser feita via HTTP, serviço de mensageria ou por um padrão orientado a eventos.
