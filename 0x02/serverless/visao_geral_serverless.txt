@@ -1,0 +1,38 @@
+O que é Arquitetura Serverless
+Arquitetura Serverless á uma estrutura que veio como alternativa aos Data Centers, é um modelo de desenvolvimento 
+nativo em nuvem e para criação e execução de aplicações sem o gerenciamento de servidores. Ou seja em vez do método
+tradicional que "alugamos um servidor", com seu processamento e armazenamento fechado aumentando ou diminuindo conforme
+a necessidade, já na arquitetura Serveless a aplicação é iniciada apenas quando é necessário. Quando um evento aciona a 
+execução do código da aplicação assim o provedor de nuvem pública aloca os recursos relacionados dinamicamente. Como a parte
+de gerenciamento do servidor fica totalmente automatizada o dev não precisa se preocupar com (gerenciamento do sistema operacional 
+e de arquivos, a aplicação de patches de segurança, o balanceamento de carga, a administração da capacidade, a escala, 
+a geração de registros e o monitoramento.)
+
+O que é Function as a service (FaaS) ?
+Função como serviço (FaaS) é um modelo de execução de computação orientado a eventos. Com ele, os desenvolvedores gravam a lógica, 
+que é implantada em containers totalmente gerenciados por uma plataforma e executada sob demanda.
+Em comparação com BaaS, o modelo FaaS proporciona maior controle aos desenvolvedores. Isso possibilita a criação de aplicações personalizadas, 
+evitando a dependência de uma biblioteca de serviços pré-gravados. 
+
+
+Quais são os benefícios de usar arquitetura Serverless?
+- Aumento da produtividade
+- Redução de custo
+- Maior praticidade na hora de adotar práticas de DevOps
+
+O que é Cloud Computing (Computação em Nuvem) ? E quais são seu benefícios ?
+Claud é a disponibilidade através da internet de recursos computacionais onde o usuária em vez de pagar para usar um recurso independente do uso nesse
+modelo paga apenas os recursos que foram usados.
+
+- Agilidade
+- Elasticidade 
+- Economia
+- Logistica
+- Segurança e disponibilidade
+
+Quais são as principais diferenças entre Arquitetura Monolítica, Microsserviços e Serverless ?
+Monolítica - Quando tempos todas funcionalidades em um único projeto, dificultando a manutenção e a escalabilidade
+Microsserviços - Quando temos as funcionalidades divididas em vários projetos separatamente, tornando os projetos menores e facilitando a escalabilidade
+Serverless - Quando a aplicação funciona em um servidor essa aplicação pode ser um monolito ou microserviços, mas usualmente é mais comum vermos microserviços 
+hospedados em Serverless já que eles podem ser escalados verticamente de forma mais fácil então por exemplo se temos um microserviço de acionamente eletrônico
+quando esse receber mais solicitações que o normal a infra irá aumentar o container que contem esse microserviço sem a necessidade de escalar os outros serviços da minha aplicação
